@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 2;
   font-size: 18px;
-  background-image: linear-gradient(260deg, #2A85BC 0%, #044059 100%);
+  background-image: linear-gradient(260deg, #ff0000 0%, #0000FF 100%);
 }
 
 #main-nav {
