@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 /*WORK SECTION*/
 #exampleWork {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -201,16 +201,34 @@ h1, h2, h3, h4, h5, h6 {
 .project {
   width: 50%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: right;
   padding: 3vh 0;
 }
 
-.projectImg {
-  width: 100px;
+
+
+.projectImgvr {
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+}
+
+.projectImgar {
+  width: 150px;
+  height: 100px; 
+}
+
+.projectImglite {
+  width: 150px;
   height: 100px;
 }
+
+.projectImggame {
+  width: 135px;
+  height: 100px;
+  padding: 40px;
 
 .projectDetails {
   width: 70%;
@@ -253,5 +271,12 @@ h1, h2, h3, h4, h5, h6 {
 .sociali:hover, .sociali:focus {
   background: #044059;
 }
+#project-lite{
+display: flex;
+justify-content: center;
+
+}
+ 
+
 
    
